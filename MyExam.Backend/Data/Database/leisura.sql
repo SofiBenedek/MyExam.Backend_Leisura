@@ -31,7 +31,7 @@ CREATE TABLE `leisura_card` (
   `id` int(2) NOT NULL,
   `employee_name` varchar(12) DEFAULT NULL,
   `is_male` varchar(5) DEFAULT NULL,
-  `transaction_date` varchar(10) DEFAULT NULL,
+  `transaction_date` date(10) DEFAULT NULL,
   `amount_huf` int(6) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
